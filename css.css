@@ -1,0 +1,240 @@
+/* General reset */
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url('images/store.background.jpg'); /* Background image */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;  /* Makes the background image fixed when scrolling */
+    background-position: center;   /* Centers the background image */
+    font-family: Arial, sans-serif; /* Optional: Set default font for the entire site */
+    color: #333;                   /* Optional: Set a default text color */
+    margin: 0;
+    padding: 0;
+}
+/* Content container with translucent background */
+.container {
+    background-color: rgba(255, 255, 255, 0.8); /* White background with 80% opacity */
+    padding: 20px;
+    border-radius: 8px; /* Optional: rounded corners */
+    max-width: 800px;
+    margin: 50px auto;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3); /* Optional: shadow for better contrast */
+}
+
+
+.login-container {
+    background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent background */
+    padding: 2rem;
+    width: 100%;
+    max-width: 400px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    text-align: center;
+}
+
+.logo {
+    width: 100px; /* Adjust logo size */
+    margin-bottom: 1rem;
+}
+
+.login-container h2 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+.login-form .form-group {
+    margin-bottom: 1.5rem;
+    text-align: left;
+}
+
+.login-form label {
+    font-size: 0.9rem;
+    color: #333;
+}
+
+.login-form input[type="text"],
+.login-form input[type="password"] {
+    width: 100%;
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+
+.login-form input[type="text"]:focus,
+.login-form input[type="password"]:focus {
+    border-color: #007bff;
+}
+
+.login-button {
+    width: 100%;
+    padding: 0.75rem;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.login-button:hover {
+    background-color: #0056b3;
+}
+
+.login-container p {
+    margin-top: 1rem;
+    font-size: 0.9rem;
+    color: #666;
+}
+table {
+    border-collapse: collapse;
+    width: 80%;
+    margin: 20px auto;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  th,
+  td {
+    padding: 10px;
+    text-align: left;
+  }
+  th {
+    background-color: #232323;
+    font-weight: bold;
+    color: #fff0f0;
+  }
+  tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  tr:hover {
+    background-color: #777777;
+    color: white;
+  }
+  
+  /***** PRINT RECEIPT *****/
+  
+  /***** End PRINT RECEIPT *****/
+  
+  
+  /*****ADMIN DASH *****/
+  
+  /***** DELETE LINK *****/  
+  
+  .delete-link {
+    color: #ffffff;
+    background-color: crimson;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 5px 18px;
+  }
+  
+  .delete-link:hover {
+    color: white;
+    background-color: rgb(47, 0, 105);
+    font-size: medium;
+  }
+  /***** End DELETE LINK *****/
+  
+  
+  /***** PRINT REPORTS *****/  
+  
+  .print-button-container {
+    display: flex;
+    justify-content: center;
+    margin: 20px; 
+    padding: 10px;
+  }
+  
+  .print{
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  }
+  
+  .print:hover{
+  background-color: #ec251b;
+  font-size: medium;
+  transition: 1s;
+  font-size: 20px;
+  }
+  /***** End PRINT REPORTS *****/
+  
+  /***** SIDE DASHBOARD *****/ 
+  
+  .dashboard {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .sidebar {
+  
+    width: 250px;
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-right: 1px solid #ddd;
+  }
+  
+  .sidebar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .sidebar li {
+    padding: 30px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .sidebar li a {
+    text-decoration: none;
+    color: #000000;
+    padding: 10px;
+  }
+  
+  .sidebar li a:hover {
+    color: #fbfbfb;
+  }
+  .main-content {
+    width: calc(100% - 250px);
+    padding: 20px;
+  }
+  /***** End SIDE DASHBOARD *****/
+  
+  
+  /***** TOTAL *****/ 
+  .total{
+    
+      background-color: #008e45b4;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      padding: 20px;
+      text-align: center;
+       width: 100%;
+    }
+    
+    .total ,h3 {
+      margin: 0%;
+      font-size: 20px;
+      color: #f0f0f0;
+    }
+    .total p {
+      font-size: 24px;
+      font-weight: bold;
+      color: #f4f4f4; 
+      
+    }
